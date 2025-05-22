@@ -1,6 +1,6 @@
 # Logo Muhasebe RestAPI Entegrasyon Task
 
-# 🧾 Logo Muhasebe Web API Entegrasyonu - Clean Architecture (Mini Proje)
+## 🧾 Logo Muhasebe Web API Entegrasyonu - Clean Architecture (Mini Proje)
 
 Bu proje, Clean Architecture (Temiz Mimari) prensiplerine uygun şekilde yapılandırılmış basit bir **.NET Core Web API** örneğidir. Amaç, Logo muhasebe uygulamasına fatura gönderimi gibi işlemleri REST API üzerinden gerçekleştirmektir.
 
@@ -36,17 +36,17 @@ Proje Clean Architecture modeline uygun şekilde 4 ana katmana ayrılmıştır:
 - RESTful API
 - Logo API Entegrasyonu (mock)
 
----
 
-## ⚙️ Dosya Yapısı
 
+```
+ ⚙️ Dosya Yapısı
 src/
 ├── Domain/
 ├── Application/
 ├── Infrastructure/
 ├── WebAPI/
 
-## Öğrenilecek Başlıca Konular
+ 🧠 Öğrenilecek Başlıca Konular
 - Clean Architecture ile proje ayrıştırma
 - RESTful API yazımı
 - Logo gibi dış servislerle entegrasyon mimarisi
