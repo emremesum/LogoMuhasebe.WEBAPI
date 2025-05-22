@@ -1,0 +1,6 @@
+@LogoMuhasebeApp_HostAddress = http://localhost:5057
+
+GET {{LogoMuhasebeApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

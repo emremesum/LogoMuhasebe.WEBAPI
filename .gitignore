@@ -1,0 +1,51 @@
+# Build ve debug klasörleri
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# VS dosyaları
+.vs/
+*.user
+*.suo
+
+# Test sonuçları ve cache
+TestResults/
+*.cache
+*.pdb
+*.dbmdl
+
+# Publish çıktısı
+publish/
+*.pubxml
+
+# Paketler
+packages/
+*.nupkg
+*.snupkg
+
+# Genel temp ve geçici dosyalar
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# IDE ve araçlar
+.idea/
+.vscode/
+_ReSharper*/
+
+# Geliştirme sırasında oluşan dosyalar
+*.dll
+*.exe
+
+# ASP.NET Core dosyaları
+wwwroot/dist/
+wwwroot/node_modules/
+
+# DotNet tools
+tools/
+
+# Diğer
+*.mdf
+*.ldf
