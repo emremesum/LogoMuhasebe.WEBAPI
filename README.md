@@ -31,7 +31,6 @@ Proje Clean Architecture modeline uygun şekilde 4 ana katmana ayrılmıştır:
 ## 🚀 Kullanılan Teknolojiler
 
 - .NET 7 / .NET 8
-- MediatR (CQRS için)
 - InMemory Repository (mock DB)
 - Clean Architecture
 - RESTful API
@@ -39,12 +38,7 @@ Proje Clean Architecture modeline uygun şekilde 4 ana katmana ayrılmıştır:
 
 ---
 
-## ⚙️ Nasıl Çalıştırılır?
-
-### 1. Projeyi Klonlayın
-
-```bash
-git clone https://github.com/emremesum/LogoMuhasebe.WEBAPI.git
+## ⚙️ Dosya Yapısı
 
 src/
 ├── Domain/
@@ -53,8 +47,8 @@ src/
 ├── WebAPI/
 
 ## Öğrenilecek Başlıca Konular
-# Clean Architecture ile proje ayrıştırma
-# RESTful API yazımı
-# Logo gibi dış servislerle entegrasyon mimarisi
-# Jwt Token ile authorize
+- Clean Architecture ile proje ayrıştırma
+- RESTful API yazımı
+- Logo gibi dış servislerle entegrasyon mimarisi
+- Jwt Token ile authorize
 
